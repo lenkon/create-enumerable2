@@ -1,4 +1,4 @@
-require './enumerable'
+require_relative './enumerable'
 class MyList
   include MyEnumerable
   def initialize(*args)
