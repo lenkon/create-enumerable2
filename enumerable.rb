@@ -11,7 +11,7 @@ module MyEnumerable
 
   def filter
     arr = []
-    each { |obj| arr.push(obj) if yield obj}
+    each { |obj| arr.push(obj) if yield obj }
     arr
   end
 end
